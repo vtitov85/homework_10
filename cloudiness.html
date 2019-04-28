@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Visualization Dashboard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Lattitude</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temperature.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparisons.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Cloudiness</h2>
+                <img src="Fig3.png" alt="Latitude vs. Cloudiness">
+                <p class="lead">
+                    There is no strong relationship between latitude and cloudiness.
+                </p>
+
+            </div>
+            <div class="col-sm-4">
+                <h3>Visualizations</h3>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-3">
+                        <a href="temperature.html">
+                            <img src="Fig1.png" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-3">
+                        <a href="humidity.html">
+                            <img src="Fig2.png" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-3">
+                        <a href="cloudiness.html">
+                            <img src="Fig3.png" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-3">
+                        <a href="wind.html">
+                            <img src="Fig4.png" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Vlad</p>
+        </div>

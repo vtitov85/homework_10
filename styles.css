@@ -1,0 +1,30 @@
+h2 {
+    color: #470ce9;
+  }
+  
+h3 {
+    color:#470ce9;
+  }
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
